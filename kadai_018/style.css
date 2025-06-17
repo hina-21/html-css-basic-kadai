@@ -51,7 +51,7 @@
   height: 300px;
   background-color: #87ceeb;
   margin: 0 auto;
-  position: relative;
+  font-size: 0;
 }
 
 #bottom-child01,
@@ -60,20 +60,18 @@
   width: 400px;
   height: 100px;
   background-color: #e5dcf0;
-  position: absolute;
+  display: block;
+  font-size: 16px;
 }
 
 #bottom-child01 {
-  top: 0;
-  left: 0;
+  margin-left: 0;
 }
 
 #bottom-child02 {
-  top: 100px;
-  left: 200px;
+  margin-left: 200px;
 }
 
 #bottom-child03 {
-  top: 200px;
-  left: 400px;
+  margin-left: 400px;
 }
